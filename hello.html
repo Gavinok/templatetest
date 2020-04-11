@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, inital-scale=1.0, maximum-scale=1.0 minimum-scale=1.0">
+    <title>INDEX</title>
+  </head>
+  <body>
+    <!--using {{.}} we specify an entry for the given clue in the template-->
+    <!-- <h1>hey {{.}}</h1> -->
+
+    <!--using {{.FName}} we specify an entry in the template that-->
+    <!--the struct element FName can be entered-->
+    <!-- <h1>hey {{.FName}}</h1> -->
+
+    <h1>String Sender</h1>
+
+    <form action="/process" method="GET">
+      <label for="fer">Enter String</label>
+      <input type="text" name="firster" id="fer" placeholder="Here">
+      <input type="submit">
+    </form>
+  </body>
+</html>
